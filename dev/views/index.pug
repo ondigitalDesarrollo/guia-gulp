@@ -1,0 +1,17 @@
+doctype html
+html(lang="es")
+  head
+    title= Pug | Gulp
+    script(type='text/javascript').
+      if (foo) bar(1 + 5)
+  body
+    h1 Hi I'm using pug with gulp
+    include blocks/menu.pug
+    #container.col
+      if youAreUsingPug
+        p I'm amazing
+      else
+        p I'm amazing
+      p.
+        Pug is a terse and simple templating language with a
+        strong focus on performance and powerful features.
